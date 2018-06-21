@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: yellow;
+    color: #777777;
+    font-family: Arial, 'Helvetica Nueue',Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+hr {
+    margin: 20px 0px 20px 0px;
+    border: none;
+    border-top: 2px solid #777777;
+    border-bottom: 1px solid #777777;
+}
+
+h1 {
+    font-family: 'Georgia',Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Georgia',Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h1.textcolorTeal {
+    color: teal;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+nav {
+    background-color: white;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #cccccc;
+}
+
+.cardplacement {
+    float: left;
+    margin: 15px 40px 15px 0px;
+}
+
+.card {
+    position: relative;
+}
+
+.cardname {
+    background-color: teal;
+    text-align: center;
+    width: 300px;
+    line-height: 55px;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+}
+
+.cardclear {
+    clear: both;
+}
+ 
+.navbar {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+h1.navlogo {
+    display: inline-block;
+    background-color: teal;
+    padding: 0px 20px 0px 20px;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}
+
+.navmenu {
+    display: inline-block;
+    color: #777777;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 80px;
+}
+
+section {
+    clear: both;
+    background-color: white;
+    color: grey;
+    width: 960px;
+    border: 2px solid #dddddd;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;  /* ensure space to see text when footer is over it */
+    padding: 20px;
+}
+
+#selfphoto {
+    float: left;
+    margin-right: 20px;
+}
+
+
+footer {
+    background-color: #666666;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    color: white;
+    border-top: 5px solid teal;
+    height: 50px;
+
+}
+
+.footerText {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+
