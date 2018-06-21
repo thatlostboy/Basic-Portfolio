@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: yellow;
+    background-color: #cccccc;
     color: #777777;
     font-family: Arial, 'Helvetica Nueue',Helvetica, sans-serif;
     line-height: 25px;
@@ -12,14 +12,15 @@ body {
 hr {
     margin: 20px 0px 20px 0px;
     border: none;
-    border-top: 2px solid #777777;
-    border-bottom: 1px solid #777777;
+    border-top: 2px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
 }
 
 h1 {
     font-family: 'Georgia',Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     font-weight: bold;
+    padding-top: 10px;
 }
 
 h2 {
@@ -28,14 +29,38 @@ h2 {
 }
 
 input {
+    margin: 2px 0px 2px 0px;
+    padding: 5px 10px 5px 10px;
+    margin: 2px 0px 2px 0px;
+    color: inherit;
+    margin-bottom: 10px;
+    border: solid 1px #cccccc;
+
+}
+
+.fullwidth {
     width: 100%;
+}
+ 
+input[type="submit"] {
+    margin-top: 5px;
+    padding: 0px 30px 0px 30px;
+    background-color: teal;
+    color: white;
+    line-height: 36px;
+    border: 0px;
 }
 
 textarea {
+    padding: 5px 10px 5px 10px;
     width: 100%;
+    line-height: 20px;
+    color: inherit;
+    margin-bottom: 10px;
+    border: solid 1px #cccccc;
 }
 
-h1.textcolorTeal {
+.textcolorTeal {
     color: teal;
 }
 
@@ -58,29 +83,7 @@ nav {
     border-bottom: 2px solid #cccccc;
 }
 
-.cardplacement {
-    float: left;
-    margin: 15px 40px 15px 0px;
-}
 
-.card {
-    position: relative;
-}
-
-.cardname {
-    background-color: teal;
-    text-align: center;
-    width: 300px;
-    line-height: 55px;
-    color: white;
-    position: absolute;
-    bottom: 20px;
-}
-
-.cardclear {
-    clear: both;
-}
- 
 .navbar {
     width: 960px;
     margin-right: auto;
@@ -90,7 +93,7 @@ nav {
 
 }
 
-h1.navlogo {
+.navlogo {
     display: inline-block;
     background-color: teal;
     padding: 0px 20px 0px 20px;
@@ -125,6 +128,31 @@ section {
     margin-right: 20px;
 }
 
+.cardplacement {
+    float: left;
+    margin: 15px 40px 15px 0px;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+
+.cardname {
+    background-color: teal;
+    text-align: center;
+    width: 300px;
+    line-height: 55px;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+}
+
+.cardclear {
+    clear: both;
+}
+ 
 
 footer {
     background-color: #666666;
