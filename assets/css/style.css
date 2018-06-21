@@ -27,6 +27,14 @@ h2 {
     font-size: 20px;
 }
 
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
 h1.textcolorTeal {
     color: teal;
 }

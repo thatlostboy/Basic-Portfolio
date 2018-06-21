@@ -31,12 +31,15 @@
     <section class="sectionCl">
         <h1 class="textcolorTeal">Contact</h1>
         <hr>
-        <form action="/action_page.php">
+        <form action="/something", id="contactform">
             Name:<br>
             <input type="text" name="name" value="blank">
             <br>
             Email:<br>
             <input type="text" name="email" value="blank">
+            <br>
+            Message:<br>
+            <textarea rows="4" name="message" form="contactform", width="100%">Enter Comment Here...</textarea>
             <br>
             <input type="submit" value="Submit">
           </form>
