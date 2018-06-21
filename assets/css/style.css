@@ -3,6 +3,7 @@
 }
 
 body {
+    background-image: url("../images/light-grey-terrazzo.png");
     background-color: #cccccc;
     color: #777777;
     font-family: Arial, 'Helvetica Nueue',Helvetica, sans-serif;
