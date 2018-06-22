@@ -82,7 +82,7 @@ nav {
     background-color: white;
     margin-bottom: 20px;
     border-bottom: 2px solid #cccccc;
-    width: 100%;
+    min-width: 960px;
 }
 
 
